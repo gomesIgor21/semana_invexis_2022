@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
   <link rel="stylesheet" href="assets/css/owl.css">
   <link rel="stylesheet" href="assets/css/lightbox.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
 
 </head>
 
@@ -34,9 +35,8 @@
     <nav id="menu" class="main-nav" role="navigation">
       <ul class="main-menu">
         <li><a href="#section1">Início</a></li>
-        <li><a href="#section1">Ativiades</a></li>
-
-        <li><a href="#section4">Courses</a></li>
+        <li><a href="#section2">Ativiades</a></li>
+        <li><a href="#section3">Tétulias</a></li>
         <li><a href="#section6">Contact</a></li>
       </ul>
     </nav>
@@ -44,9 +44,12 @@
 
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
-    <img id="stars" src="./assets/images/background-banner.png">
+    <!-- <img id="stars" src="./assets/images/background-banner.png"> -->
+    <video autoplay muted loop id="bg-video">
+      <source src="assets/images/banner_bg3.mp4" type="video/mp4" />
+    </video>
 
-    <div class="header-text">
+    <div class="video-overlay header-text">
       <div class="caption">
         <h2>XVI Semana da <em>Invéxis</em></h2>
         <h6>9 a 17 de Julho de 2022</h6>
@@ -110,7 +113,7 @@
   </section>
 -->
 
-  <section class="section coming-soon" data-section="section3">
+  <section class="section coming-soon" data-section="section">
     <div class="container">
       <div class="row">
         <div class="col-md-7 col-xs-12">
@@ -169,7 +172,7 @@
                 </div>
                 <div class="col-md-12">
                   <fieldset>
-                    <button type="submit" id="form-submit" class="button">Get it now</button>
+                    <button type="submit" id="form-submit" class="button">Enviar</button>
                   </fieldset>
                 </div>
               </div>
@@ -180,7 +183,8 @@
     </div>
   </section>
 
-  <!-- <section class="section why-us" data-section="section2">
+  <section class="section why-us" data-section="section2">
+    <div class="section-overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -193,7 +197,8 @@
             <ul>
               <li><a href='#tabs-1'>Tertúlias</a></li>
               <li><a href='#tabs-2'>Conferências</a></li>
-              <li><a href='#tabs-3'>Mesa Redonda</a></li>
+              <li><a href='#tabs-3'>Painel</a></li>
+              <li><a href='#tabs-4'>Mesa Redonda</a></li>
             </ul>
             <section class='tabs-content'>
               <article id='tabs-1'>
@@ -227,6 +232,20 @@
               <article id='tabs-3'>
                 <div class="row">
                   <div class="col-md-6">
+                    <img src="assets/images/choose-us-image-02.png" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Top Level</h4>
+                    <p>You can modify this HTML layout by editing contents and adding more pages as you needed. Since
+                      this template has options to add dropdown menus, you can put many HTML pages.</p>
+                    <p>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam
+                      felis non ante.</p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-4'>
+                <div class="row">
+                  <div class="col-md-6">
                     <img src="assets/images/choose-us-image-03.png" alt="">
                   </div>
                   <div class="col-md-6">
@@ -243,10 +262,23 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
+
+  <div class="divider container-fluid">
+    <div class="row">
+      <div class="col-10">
+        <h2>Participe você também!</h2>
+        <p>Não perca o maior evento sobre Inversão Existencial!</p>
+      </div>
+      <div class="col-2">
+        <button>Quero Participar</button>
+      </div>
+    </div>
+  </div>
 
 
-  <!-- <section class="section courses" data-section="section4">
+  <section class="section courses" data-section="section3">
+    <div class="section-overlay"></div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
@@ -254,150 +286,14 @@
             <h2>TERTÚLIAS</h2>
           </div>
         </div>
-        <div class="owl-carousel owl-theme">
-          <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="Course #1">
-            <div class="down-content">
-              <h4>Digital Marketing</h4>
-              <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
-              <div class="author-image">
-                <img src="assets/images/author-01.png" alt="Author 1">
-              </div>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="Course #2">
-            <div class="down-content">
-              <h4>Business World</h4>
-              <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
-              <div class="author-image">
-                <img src="assets/images/author-02.png" alt="Author 2">
-              </div>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="Course #3">
-            <div class="down-content">
-              <h4>Media Technology</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.
-              </p>
-              <div class="author-image">
-                <img src="assets/images/author-03.png" alt="Author 3">
-              </div>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="Course #4">
-            <div class="down-content">
-              <h4>Communications</h4>
-              <p>Download free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
-              <div class="author-image">
-                <img src="assets/images/author-04.png" alt="Author 4">
-              </div>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
-            <div class="down-content">
-              <h4>Business Ethics</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.
-              </p>
-              <div class="author-image">
-                <img src="assets/images/author-05.png" alt="">
-              </div>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
-            <div class="down-content">
-              <h4>Photography</h4>
-              <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
-              <div class="author-image">
-                <img src="assets/images/author-01.png" alt="">
-              </div>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="">
-            <div class="down-content">
-              <h4>Web Development</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.
-              </p>
-              <div class="author-image">
-                <img src="assets/images/author-02.png" alt="">
-              </div>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="">
-            <div class="down-content">
-              <h4>Learn HTML CSS</h4>
-              <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
-              <div class="author-image">
-                <img src="assets/images/author-03.png" alt="">
-              </div>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="">
-            <div class="down-content">
-              <h4>Social Media</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.
-              </p>
-              <div class="author-image">
-                <img src="assets/images/author-04.png" alt="">
-              </div>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
-            <div class="down-content">
-              <h4>Digital Arts</h4>
-              <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
-              <div class="author-image">
-                <img src="assets/images/author-05.png" alt="">
-              </div>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
+        <div class="owl-carousel owl-theme">          
           <div class="item">
             <img src="assets/images/courses-01.jpg" alt="">
             <div class="down-content">
               <h4>Media Streaming</h4>
               <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.
               </p>
-              <div class="author-image">
-                <img src="assets/images/author-01.png" alt="">
-              </div>
+              
               <div class="text-button-pay">
                 <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
               </div>
@@ -406,7 +302,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
 
   <!-- <section class="section video" data-section="section5">
