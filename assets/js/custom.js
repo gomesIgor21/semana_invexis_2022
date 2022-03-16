@@ -22,6 +22,8 @@
 			$menu.toggleClass('active');
 			return false;
 		});
+
+		window.history.forward(1);
 	});
 
 	videoPopup();

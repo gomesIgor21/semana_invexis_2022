@@ -9,7 +9,8 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	min-height: 200vh;
-	background: var(--bg-gradient);
+	background: url(../images/background-banner2.png) no-repeat fixed;
+	background-size: cover;
   font-size: 16px;
 }
 
@@ -38,22 +39,22 @@ p {
 
 .section-heading {
 	text-align: center;
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 }
 
 .section-heading h2:before {
 	width: 1px;
-	height: 100px;
+	height: 50px;
 	background-color: var(--primary);
 	position: absolute;
-	top: -102px;
+	top: -52px;
 	content: '';
 	left: 50%;
 	transform: translate(-50%);
 }
 
 .section-heading h2 {
-	margin-top: 100px;
+	margin-top: 50px;
 	position: relative;
 	font-size: 18px;
 	font-weight: 500;
@@ -522,9 +523,9 @@ section.features .col-4 {
 /* Why Choosing Us */
 
 section.why-us {
-	background-image: url(../images/background-banner.png);
+	/* background-image: url(../images/background-banner.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 	padding-bottom: 50px;
 	height: 130vh;
 }
@@ -852,9 +853,9 @@ section.coming-soon form button {
 /* Courses */
 
 section.courses {
-	background-image: url(../images/background-banner.png);
+	/* background-image: url(../images/background-banner.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 	height: 130vh;
 }
 
