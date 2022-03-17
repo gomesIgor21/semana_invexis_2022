@@ -42,7 +42,7 @@ p {
 	margin-bottom: 30px;
 }
 
-.section-heading h2:before {
+/* .section-heading h2:before {
 	width: 1px;
 	height: 50px;
 	background-color: var(--primary);
@@ -51,10 +51,10 @@ p {
 	content: '';
 	left: 50%;
 	transform: translate(-50%);
-}
+} */
 
 .section-heading h2 {
-	margin-top: 50px;
+	margin-top: 60px;
 	position: relative;
 	font-size: 18px;
 	font-weight: 500;
@@ -313,7 +313,7 @@ a.menu-link {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 60px;
+	height: 100px;
 	background: linear-gradient(to top, var(--secondary-dark), transparent);
 	z-index: 100;
 }
@@ -527,16 +527,16 @@ section.why-us {
 	background-repeat: no-repeat;
 	background-size: cover; */
 	padding-bottom: 50px;
-	height: 130vh;
+	height: 100vh;
 }
 
-section.why-us div.section-overlay {
+/* section.why-us div.section-overlay {
 	width: 100%;
 	height: inherit;
 	position: absolute;
 	background: var(--secondary);
 	opacity: 0.8;
-}
+} */
 
 #tabs {
 	text-align: center;
@@ -660,7 +660,7 @@ section.coming-soon {
 }
 
 section.coming-soon .container {
-	height: 100vh;
+	height: 85vh;
 }
 
 section.coming-soon .row {
@@ -669,8 +669,22 @@ section.coming-soon .row {
 }
 
 section.coming-soon::before {
-  background: linear-gradient(to top, var(--secondary-dark), transparent);
-  height: 100px;
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	transform: translateY(-50%);
+	background: linear-gradient(to top, var(--secondary-dark),transparent);
+	z-index: 100;
+}
+
+section.coming-soon::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	background: linear-gradient(to bottom, var(--secondary-dark),transparent);
+	z-index: 100;
 }
 
 section.coming-soon .continer .counter div {
@@ -856,15 +870,7 @@ section.courses {
 	/* background-image: url(../images/background-banner.png);
 	background-repeat: no-repeat;
 	background-size: cover; */
-	height: 130vh;
-}
-
-section.courses div.section-overlay {
-	width: 100%;
-	height: inherit;
-	position: absolute;
-	background: var(--secondary);
-	opacity: 0.8;
+	height: 100vh;
 }
 
 section.courses .item img {
