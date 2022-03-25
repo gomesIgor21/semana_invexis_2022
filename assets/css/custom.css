@@ -219,7 +219,7 @@ section.pos-congresso {
 	height: 90vh;
 	background-color: var(--secondary-dark);
 	margin-top: 7em;
-	margin-bottom: 7em;
+	margin-bottom: 2em;
 	color: #fff;
 }
 
@@ -278,3 +278,76 @@ section.pos-congresso .pos-col .pos-description-container p {
   font-size: 1.2em;
   line-height: 1em;
 }
+
+section.inscricao {
+	width: 100%;
+	height: 100vh;
+}
+
+.inscricao-content {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#inscricao-content-top {
+	margin-bottom: 1em;
+}
+
+#inscricao-content-bottom {
+	margin-top: 1em;
+}
+
+.card-item {
+	width: 250px;
+	background-color: var(--primary);
+	padding: 15px 15px;
+	border-radius: 15px;
+}
+
+.card-item ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.item-price-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	background-color: var(--secondary);
+	color: #fff;
+}
+
+.item-price {
+	text-align: center;
+}
+
+.card-item-principal {
+	width: 300px;	
+	padding: 15px 15px;
+	font-size: 18px;
+	background-color: var(--primary);
+	border-radius: 15px;
+}
+
+.card-item-principal ul {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-item ul li,
+.card-item-principal ul li {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+

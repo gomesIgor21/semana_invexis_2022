@@ -1,4 +1,5 @@
 (function ($) {
+
 	$(document).on('scroll', function () {
 		let value = window.scrollY;
 		let height = window.screen.height;
