@@ -1,18 +1,5 @@
 (function ($) {
 
-	$(document).on('scroll', function () {
-		let value = window.scrollY;
-		let height = window.screen.height;
-		var stars = document.getElementById('stars');
-		
-		if(height >= 800) {
-			stars.style.left = value * 0.2 + 'px';
-		} else {
-			stars.style.left = value * 0.5 + 'px';
-		}
-
-	});
-
 	$(document).ready(function () {
 		$('body').addClass('js');
 		var $menu = $('#menu'),
