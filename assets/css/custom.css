@@ -340,9 +340,35 @@ section.pos-congresso .pos-col .pos-description-container p {
 	line-height: 1em;
 }
 
+/* 
+	Inscrição
+*/
+
 section.inscricao {
 	width: 100%;
-	height: 100vh;
+	height: 135vh;
+}
+
+.inscricao-content-principal {
+	width: 80%;
+	transform: translateX(15%);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: var(--secondary-dark);
+	margin-bottom: 1.5em;
+	color: var(--primary);
+	padding: 15px 0px;
+	border-radius: 15px;
+}
+
+.inscricao-content-principal .ul-center {
+	text-align: center;
+}
+
+.inscricao-content-principal .ul-center h4{
+	margin: 0;
 }
 
 .inscricao-content {
@@ -382,6 +408,8 @@ section.inscricao {
 
 	background-color: var(--secondary);
 	color: #fff;
+	padding: 8px 5px;
+	border-radius: 15px;
 }
 
 .item-price {
