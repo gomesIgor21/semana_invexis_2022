@@ -52,9 +52,9 @@ div.blur::after {
 	width: max-content;
 	color: var(--secondary);
 	background-color: var(--primary);
-	border-radius: 25px;
 	padding: 10px 15px;
-	font-size: 1.1em;
+	font-size: 1em;
+	font-weight: 600;
 	border: none;
 }
 
@@ -95,8 +95,9 @@ section.popular-categories .row {
 	display: flex;
 	justify-content: start;
 	align-items: center;
-	color: #fff;
+	color: var(--secondary-dark);
 	font-size: 15px;
+	font-weight: 500;
 	background-color: var(--primary);
 	height: 40px;
 	text-align: left;
@@ -110,6 +111,7 @@ section.popular-categories .row {
 .popular-categories .naccs .menu div.active,
 .popular-categories .naccs .menu div.active .thumb {
 	background-color: var(--secondary-dark);
+	color: #fff;
 }
 
 .popular-categories ul.nacc {
@@ -338,6 +340,7 @@ section.pos-congresso .pos-col .pos-description-container {
 section.pos-congresso .pos-col .pos-description-container p {
 	font-size: 1.2em;
 	line-height: 1em;
+	text-indent: 1em;
 }
 
 /* 
@@ -358,7 +361,7 @@ section.inscricao {
 	align-items: center;
 	background-color: var(--secondary-dark);
 	margin-bottom: 1.5em;
-	color: var(--primary);
+	color: #fff;
 	padding: 15px 0px;
 	border-radius: 15px;
 }
@@ -439,6 +442,19 @@ section.inscricao {
 	justify-content: center;
 	align-items: center;
 }
+
+.price-1 {
+	font-size: 1.6em;
+	font-weight: 600;
+	color: #fff;
+}
+
+.price-2 {
+	text-decoration: line-through;
+	color: rgba(0,0,0,0.5);
+	font-weight: 600;
+}
+
 
 /*Contato*/
 section.contact {
@@ -545,10 +561,10 @@ section.contact .php-email-form textarea {
 section.contact .php-email-form button[type='submit'] {
 	background: var(--primary);
 	border: 0;
-	padding: 10px 40px;
+	padding: 8px 36px;
 	color: var(--secondary);
+	font-weight: 600;
 	transition: 0.4s;
-	border-radius: 50px;
 	cursor: pointer;
 }
 

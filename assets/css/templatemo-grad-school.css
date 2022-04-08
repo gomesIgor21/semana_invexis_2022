@@ -56,8 +56,8 @@ p {
 .section-heading h2 {
 	margin-top: 60px;
 	position: relative;
-	font-size: 18px;
-	font-weight: 500;
+	font-size: 1.3em;
+	font-weight: 700;
 	color: #fff;
 	letter-spacing: 0.5px;
 	display: inline-block;
@@ -69,7 +69,7 @@ p {
 
 .main-button a {
 	background-color: #f5a425;
-	color: #fff;
+	color: var(--secondary-dark);
 	font-size: 13px;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
@@ -77,6 +77,10 @@ p {
 	padding: 12px 20px;
 	display: inline-block;
 	outline: none;
+}
+
+.main-button a:hover {
+	color: #fff;
 }
 
 a.menu-link {
@@ -555,7 +559,7 @@ section.why-us {
 }
 #tabs ul li a {
 	display: block;
-	font-size: 13px;
+	font-size: 0.8em;
 	font-weight: 700;
 	letter-spacing: 1px;
 	cursor: pointer;
@@ -605,7 +609,7 @@ section.why-us {
 #tabs ul .ui-tabs-active a:before {
 	border-color: #f5a425;
 }
-#tabs h4 {
+#tabs h5 {
 	margin-top: 60px;
 	font-size: 32px;
 	font-weight: 700;
@@ -616,7 +620,7 @@ section.why-us {
 
 #tabs p {
 	color: #fff;
-	font-size: 15px;
+	font-size: 1.1em;
 	line-height: 28px;
 }
 
@@ -629,9 +633,11 @@ section.why-us {
 	text-align: center;
 }
 
+
 .activities-container a {
 	color: var(--primary);
 	font-size: 1.15em;
+	text-decoration: underline;
 }
 
 .activities-container a:hover {
@@ -855,7 +861,7 @@ section.coming-soon form input::placeholder {
 section.coming-soon form button {
 	margin-top: 10px;
 	background-color: #f5a425;
-	color: #fff;
+	color: var(--secondary-dark);
 	font-size: 13px;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
@@ -865,6 +871,10 @@ section.coming-soon form button {
 	outline: none;
 	box-shadow: none;
 	border: none;
+}
+
+section.coming-soon form button:hover {
+	color: #fff;
 }
 
 /* Courses */
