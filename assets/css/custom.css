@@ -476,12 +476,18 @@ section.inscricao {
 	text-decoration: line-through;
 	color: rgba(0, 0, 0, 0.5);
 	font-size: 0.9em;
-	margin-bottom: 10px;
 }
 
 .price-2-principal {
 	text-decoration: line-through;
 	color: rgba(255,255,255,0.7);
+}
+
+.installment {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.8em;
+	margin-bottom: 10px;
 }
 
 .btn-inscrever {
@@ -498,6 +504,7 @@ section.inscricao {
 	font-size: 1.2em;
 	font-weight: 600;
 	padding: 5px 20px;
+	border-radius: 5px;
 }
 
 .btn-inscrever-principal:hover {
