@@ -378,16 +378,21 @@ section.inscricao {
 	width: 33%;
 }
 
+.inscricao-content-principal .ul-right{
+	width: 20%;
+}
+
 .inscricao-content-principal .ul-left {
-	transform: translateX(22%);
+	transform: translateX(10%);
 }
 
 .inscricao-content-principal .ul-center {
 	text-align: center;
+	transform: translateX(-20%);
 }
 
 .inscricao-content-principal .ul-right {
-	transform: translateX(44%);
+	transform: translateX(20%);
 }
 
 .inscricao-content {
