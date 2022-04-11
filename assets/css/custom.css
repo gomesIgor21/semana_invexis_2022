@@ -211,6 +211,7 @@ section.popular-categories .row {
 	font-size: 1em;
 	letter-spacing: 1px;
 	margin-bottom: 5px;
+	line-height: 1.8em;
 }
 
 .programacao p em {
@@ -339,7 +340,7 @@ section.pos-congresso .pos-col .pos-description-container {
 
 section.pos-congresso .pos-col .pos-description-container p {
 	font-size: 1.2em;
-	line-height: 1em;
+	line-height: 1.3em;
 	text-indent: 1em;
 }
 
