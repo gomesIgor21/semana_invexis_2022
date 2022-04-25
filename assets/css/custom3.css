@@ -551,7 +551,7 @@ section.inscricao {
 
 .card-item-overlay::after{
 	content: 'Esgotado';
-	color: rgb(255, 0, 0);
+	color: #fff;
 	height: inherit;
 	display: flex;
 	flex-flow: column;
@@ -561,6 +561,7 @@ section.inscricao {
 	font-weight: 800;
 	transform: rotate(35deg);
 	border-radius: 5px;
+	text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000;
 }
 
 /*Contato*/
