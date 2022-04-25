@@ -540,6 +540,29 @@ section.inscricao {
 	color: #fff;
 }
 
+.card-item-overlay {
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	z-index: 1000;
+	background-color: rgba(48, 48, 48, 0.8);
+	transform: translateX(-6%) translateY(-5%);
+}
+
+.card-item-overlay::after{
+	content: 'Esgotado';
+	color: rgb(255, 0, 0);
+	height: inherit;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	font-weight: 800;
+	transform: rotate(35deg);
+	border-radius: 5px;
+}
+
 /*Contato*/
 section.contact {
 	width: 100%;
